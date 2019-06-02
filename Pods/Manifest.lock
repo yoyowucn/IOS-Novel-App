@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (4.8.0)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - AliyunOSSiOS (2.10.7)
+  - DynamicBlurView (3.0.1)
+  - IQKeyboardManagerSwift (6.2.1)
+  - MJRefresh (3.1.16)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - ObjectMapper (3.4.2)
+  - PopupDialog (1.1.0):
+    - DynamicBlurView (~> 3.0.1)
+  - Result (4.1.0)
+  - SKPhotoBrowser (6.1.0)
+  - SwiftyBeaver (1.7.0)
+  - TZImagePickerController (3.2.0)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - AliyunOSSiOS
+  - IQKeyboardManagerSwift
+  - MJRefresh
+  - Moya
+  - ObjectMapper
+  - PopupDialog
+  - SKPhotoBrowser
+  - SwiftyBeaver
+  - TZImagePickerController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AliyunOSSiOS
+    - DynamicBlurView
+    - IQKeyboardManagerSwift
+    - MJRefresh
+    - Moya
+    - ObjectMapper
+    - PopupDialog
+    - Result
+    - SKPhotoBrowser
+    - SwiftyBeaver
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AliyunOSSiOS: 602b6a4e70e62a5f0a6431c20496343141d7e66f
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PopupDialog: 42fb7a0bc4fafdf89fef8b5b2b127a6023f3e1cc
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SKPhotoBrowser: 343de95d89dc7913763c5dda243cc6e606e4a168
+  SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
+  TZImagePickerController: 7850b158d025065b162a1a963d445040b828abc9
+
+PODFILE CHECKSUM: 74fac6770a086c918750290028638fa104163d79
+
+COCOAPODS: 1.5.3
