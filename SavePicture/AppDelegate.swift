@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         console.levelColor.info     = "🌸🌺🎋🎄🌹🌻🌳  "
         console.levelColor.warning  = "😀😃😄😁😆😅😂  "
         Log.addDestination(console)
-        
+        log.debug("我是你爸爸")
         
         chiosephotoorcamer()
         
