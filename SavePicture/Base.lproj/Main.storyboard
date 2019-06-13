@@ -17,10 +17,36 @@
                     <view key="view" contentMode="scaleToFill" id="cUa-2V-49O">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbR-M3-z8f">
+                                <rect key="frame" x="168.5" y="433" width="77" height="30"/>
+                                <state key="normal" title="二维码扫描"/>
+                                <connections>
+                                    <action selector="btn_qr:" destination="Tw5-tB-tgi" eventType="touchUpInside" id="cK7-Bb-rrA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ip-vI-wyf">
+                                <rect key="frame" x="10" y="312.5" width="394" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jbR-M3-z8f" firstAttribute="top" secondItem="2ip-vI-wyf" secondAttribute="bottom" constant="100" id="1zm-G9-FLC"/>
+                            <constraint firstItem="jbR-M3-z8f" firstAttribute="centerX" secondItem="cUa-2V-49O" secondAttribute="centerX" id="9Zi-f0-zUf"/>
+                            <constraint firstItem="2ip-vI-wyf" firstAttribute="leading" secondItem="FBI-uT-z07" secondAttribute="leading" constant="10" id="TE8-3h-gpa"/>
+                            <constraint firstItem="2ip-vI-wyf" firstAttribute="centerX" secondItem="cUa-2V-49O" secondAttribute="centerX" id="pRE-FY-tsR"/>
+                            <constraint firstItem="jbR-M3-z8f" firstAttribute="centerY" secondItem="cUa-2V-49O" secondAttribute="centerY" id="rNF-1K-aDP"/>
+                            <constraint firstItem="FBI-uT-z07" firstAttribute="trailing" secondItem="2ip-vI-wyf" secondAttribute="trailing" constant="10" id="rzA-xb-pHN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FBI-uT-z07"/>
                     </view>
                     <navigationItem key="navigationItem" title="我的" id="EBs-4g-W0Z"/>
+                    <connections>
+                        <outlet property="lable_code" destination="2ip-vI-wyf" id="KKG-jy-N2G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lb8-rt-o2G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

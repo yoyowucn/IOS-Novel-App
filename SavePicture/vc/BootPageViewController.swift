@@ -14,9 +14,9 @@ class BootPageViewController: UIViewController {
     @IBOutlet weak var bankimg: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let token = KeychainManager.keyChainReadData(identifier: "Token") as! String
+        let token = KeychainManager.keyChainReadData(identifier: "Token") as? String
         
-        if token.isEmpty == false {
+        if token?.isEmpty == false {
             
             Taolsterhelper.instance.delay(by: 1) {
                 UIView.animate(withDuration: 2, animations:{ self.bankimg.frame = CGRect(x: -20, y: -20, width: UIScreen.main.bounds.width+30, height: UIScreen.main.bounds.height+30)}, completion: { (true) in
